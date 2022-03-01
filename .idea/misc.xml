@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programowanie/Android/SDK/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.18854166666666666" />
+        <entry key="..\:/Project/Android/youtubetto/app/src/main/res/layout/activity_google_sign_in.xml" value="0.18854166666666666" />
+        <entry key="..\:/Project/Android/youtubetto/app/src/main/res/layout/activity_main.xml" value="0.18854166666666666" />
+        <entry key="..\:/Project/Android/youtubetto/app/src/main/res/layout/activity_subscriptions.xml" value="0.18854166666666666" />
+        <entry key="..\:/Project/Android/youtubetto/app/src/main/res/layout/activity_video.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Gosia/StudioProjects/youtubetto2/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.23560910307898258" />
+        <entry key="..\:/Users/Gosia/StudioProjects/youtubetto2/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.2667349726775956" />
+        <entry key="..\:/Users/Gosia/StudioProjects/youtubetto2/app/src/main/res/layout/activity_channel.xml" value="0.33" />
+        <entry key="..\:/Users/Gosia/StudioProjects/youtubetto2/app/src/main/res/layout/activity_main.xml" value="0.353713768115942" />
+        <entry key="..\:/Users/Gosia/StudioProjects/youtubetto2/app/src/main/res/layout/activity_subscriptions.xml" value="0.25" />
+        <entry key="..\:/Users/Gosia/StudioProjects/youtubetto2/app/src/main/res/layout/activity_video.xml" value="0.2078804347826087" />
+        <entry key="..\:/Users/Gosia/StudioProjects/youtubetto2/app/src/main/res/layout/content_scrolling.xml" value="0.353713768115942" />
+        <entry key="..\:/Users/Gosia/StudioProjects/youtubetto2/app/src/main/res/layout/subscription_list_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gosia/StudioProjects/youtubetto2/app/src/main/res/menu/menu_subscriptions.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

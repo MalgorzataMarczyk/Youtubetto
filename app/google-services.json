@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "709056442089",
+    "project_id": "youtubetto-1",
+    "storage_bucket": "youtubetto-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709056442089:android:23ba5d7687dd8bfd05ca78",
+        "android_client_info": {
+          "package_name": "com.example.youtubetto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709056442089-4ffj9ffg5heg5icsp1muge8hrag5casa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.youtubetto",
+            "certificate_hash": "038553fa65a16cac1e5bc820111fedb57f221bde"
+          }
+        },
+        {
+          "client_id": "709056442089-2lijqhkaqed1j8fc8n9masf9524mtedf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-8Vv9RldR5DJib9-Dd_KuW1muq7mulYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709056442089-2lijqhkaqed1j8fc8n9masf9524mtedf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -23,13 +23,14 @@ class VideoActivity : YouTubeBaseActivity() {
 
         val authToken = getIntent().getStringExtra("token").toString()
         val videoId = intent.getStringExtra("video")
+        val videoTitle = intent.getStringExtra("videoTitle")
 
         youtubePlayer = findViewById(R.id.youtubePlayer)
         btnPlayer = findViewById(R.id.btnPlay)
 
 
-        val idTextView = findViewById<TextView>(R.id.videoId)
-        idTextView.text = videoId
+        val titleTextView = findViewById<TextView>(R.id.title)
+        titleTextView.text = videoTitle
 
 
         youtubePlayerInit = object  : YouTubePlayer.OnInitializedListener{

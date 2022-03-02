@@ -17,6 +17,11 @@
         <entry key="..\:/Users/Gosia/StudioProjects/youtubetto2/app/src/main/res/layout/content_scrolling.xml" value="0.353713768115942" />
         <entry key="..\:/Users/Gosia/StudioProjects/youtubetto2/app/src/main/res/layout/subscription_list_row.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Gosia/StudioProjects/youtubetto2/app/src/main/res/menu/menu_subscriptions.xml" value="0.36666666666666664" />
+        <entry key="app/src/main/res/layout/activity_channel.xml" value="0.15104166666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23020833333333332" />
+        <entry key="app/src/main/res/layout/activity_subscriptions.xml" value="0.15104166666666666" />
+        <entry key="app/src/main/res/layout/activity_video.xml" value="0.15104166666666666" />
+        <entry key="app/src/main/res/layout/subscription_list_row.xml" value="0.33" />
       </map>
     </option>
   </component>

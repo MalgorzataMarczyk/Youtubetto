@@ -63,6 +63,7 @@ class SubscriptionsActivity : AppCompatActivity() {
                 listView.setOnItemClickListener { parent, view, position, id ->
                     val intent  = Intent(this, ChannelActivity::class.java).apply {
                         putExtra("channel", (parent.adapter.getItem(position) as SubscribedChannel).id)
+                        putExtra("channelTitle", (parent.adapter.getItem(position) as SubscribedChannel).title)
                         putExtra("token", authToken)
                     }
                     startActivity(intent)

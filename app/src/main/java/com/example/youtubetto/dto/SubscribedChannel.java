@@ -22,4 +22,10 @@ public class SubscribedChannel implements IYoutubeObject {
     public String getTitle() {
         return channelName;
     }
+
+    @Override
+    public String getPhotoUrl() { return null; }
+
+    @Override
+    public String getPublishTime() { return null; }
 }

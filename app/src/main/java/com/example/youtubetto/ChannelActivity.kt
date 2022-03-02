@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.ListView
+import android.widget.TextView
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
@@ -26,8 +27,10 @@ class ChannelActivity : AppCompatActivity() {
 
         val authToken = getIntent().getStringExtra("token").toString()
         val channelId = getIntent().getStringExtra("channel").toString()
+        val channelTitle = getIntent().getStringExtra("channelTitle").toString()
 
         val listView : ListView = findViewById(R.id.channel_videos_list)
+        findViewById<TextView>(R.id.channel_name).setText(channelTitle)
 
         val queue = Volley.newRequestQueue(this)
         val subscribed_channels_url = "https://youtube.googleapis.com/youtube/v3/search?channelId=${channelId}&part=snippet,id&order=date"
@@ -46,6 +49,9 @@ class ChannelActivity : AppCompatActivity() {
                 listView.setOnItemClickListener { parent, view, position, id ->
                     val intent  = Intent(this, VideoActivity::class.java).apply {
                         putExtra("video", (parent.adapter.getItem(position) as ChannelVideo).id)
+                        putExtra("videoTitle", (parent.adapter.getItem(position) as ChannelVideo).title)
+                        putExtra("videoThumbnailUrl", (parent.adapter.getItem(position) as ChannelVideo).photoUrl)
+                        putExtra("videoPublishTime", (parent.adapter.getItem(position) as ChannelVideo).publishTime)
                         putExtra("token", authToken)
                     }
                     startActivity(intent)
@@ -63,4 +69,5 @@ class ChannelActivity : AppCompatActivity() {
         queue.add(jsonObjectRequest)
 
     }
+
 }

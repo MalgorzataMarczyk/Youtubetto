@@ -48,7 +48,15 @@ class CustomListViewAdapter(context: Context, youtubeList : ArrayList<IYoutubeOb
 
         println("photoUrl " + getItem(position).photoUrl)
 
-        subRow.findViewById<TextView>(R.id.Name_textView).text = getItem(position).title
+        var title : String = getItem(position).title
+
+        println(title)
+        var formattedTitle = title.replace("'", "\\\\'");
+        formattedTitle = formattedTitle.replace("\"", "\\\\\"");
+        formattedTitle = formattedTitle.replace("&quot;", "\"");
+        formattedTitle = formattedTitle.replace("&amp;", "&");
+        formattedTitle = formattedTitle.replace("&#39;", "\'");
+        subRow.findViewById<TextView>(R.id.Name_textView).text = formattedTitle
 
         var formattedPublishTime : String = ""
         if(getItem(position).publishTime != null) {
